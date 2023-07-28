@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" type="image/x-icon" href="./pictures/favicon.png">
+</head>
+<body>
+    
+    <header>
+
+        <nav id="desktop-nav">
+            <div class="logo">Nobita </div>
+            <div >
+              <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#personal-info">Personal Information</a></li>
+                <li><a href="#acadamics">Acadamics</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+               <!-- <li><a href="#cca">Co-curricular Activities</a></li>
+                <li><a href="#achievements">Achievements</a></li>-->
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          <nav id="hamburger-nav">
+            <div class="phone-heading">Nobita</div>
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#personal-info" onclick="toggleMenu()">Personal Information</a></li>
+                <li><a href="#acadamics" onclick="toggleMenu()">Acadamics</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+               <!--  <li><a href="#cca" onclick="toggleMenu()">Co-curricular Activities</a></li>
+              <li><a href="#achievements" onclick="toggleMenu()">Achievements</a></li>--> 
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+              </div>
+            </div>
+          </nav>
+    
+        </header>
+    
+        <main>
+          <section id="profile">
+            <div class="section__pic-container">
+            <img src="./pictures/profile.jpg" alt="profile picture " class="profile"/>
+            </div>
+            <div class="section__text">
+              <p class="section__text__p1"> Hello , I'm</p>
+              <h1 class="title">Your Name </h1>
+              <p class="section__text__p2"> Final Year  Student </p>
+              <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('#path of your resume')"> download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact info </button>
+              </div>
+              <div id="socials-container">
+                <img src="./pictures/linkedin.png" alt="my linkdin profile" class="icon" onclick="location.href='https : //linkdin.com/'" >
+                <img src="./pictures/github.png" alt="my gitbhub profile" class="icon" onclick="location.href='https : //github.com/'" >
+              </div>
+            </div>
+            <img src="./pictures/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#about'"/>
+          </section>
+       
+    
+    
+          <section id="about"> 
+            <p class="section__text__p1"> Get To Know More </p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+              <div class="section__pic-container">
+                <img src="./pictures/profile.jpg" alt="profile picture" class="about-pic"/>
+              </div>
+             <!-- <div class="about-details-container">
+                <div class="about-container">-->
+                  <div class="text-container">
+                   <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, officia, quasi cumque ea rem adipisci ab pariatur impedit laudantium magni ducimus, eligendi omnis eius error exercitationem alias consequuntur laborum excepturi.
+                    </p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius vitae nam laboriosam beatae iste eos ipsa, dolorem dolores quaerat libero voluptatum ab eveniet tempore. Soluta a facilis perferendis officiis odit.</p>
+                  </div>
+               <!-- </div>
+              </div>-->
+            </div>
+            <img src="./pictures/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#personal-info'"/>
+          </section>
+    
+    
+          <section id="personal-info">
+            <p class="section__text__p1"> Get To Know More </p>
+            <h1 class="title"> Personal Information</h1>
+            <div class="section-container">
+            <div class="about-details-container">
+            <div class="personal-containers">
+                
+              <div class="details-container">
+                <img src="./pictures/hobbies.png" alt="hobbies icon" class="icon"/>
+               <h3>Hobbies</h3>
+               <div class="hobby-class">
+               
+                 <p></p> 
+               
+                 <ul class="info">
+                  <li>hobby1 </li>
+                  <li>hobby2</li>
+                  <li>hobby3</li>
+                  <li>hobby4</li>
+                  <li>hobby5</li>
+                </ul> 
+                
+               </div>
+              </div>
+               
+               <div class="details-container">
+                <img src="./pictures/strength.png" alt=" strength icon" class="icon"/>
+                <h3>strength1</h3>
+              <ul class="info">
+                <li> strength2</li>
+                
+                  <li>strength3</li>
+                 <li>strength4</li>
+                 <li>strength5</li>
+              </ul>
+              </div>
+    
+              <div class="details-container">
+                <img src="./pictures/weakness.png" alt="weakness icon" class="icon"/>
+                <h3>weakness</h3>
+                
+                <ul class="info">
+                  <li>weakness1</li>
+                  <li>weakness2</li>
+                  <li>weakness3</li>
+                  
+                </ul>
+              </div>
+    
+              <div class="details-container">
+                <img src="./pictures/experience.png" alt="Achievements icon" class="icon"/>
+                <h3>Achievements</h3>
+                <ul class="info">
+                  <li>Achievemnt 1 </li>
+                  <li>Achievemnt 2</li>
+                  <li>Achievemnt 3</li>
+               
+                </ul>
+               
+              </div>
+    
+            
+            </div>
+            
+            </div>
+          </div>
+          <img src="./pictures/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#acadamics'"/>
+          </section>
+       
+    
+          <section id="acadamics">
+        <p class="section__text__p1"> My Alma Mater</p>
+        <h1 class="title"> Acadamics</h1>
+    
+    
+        <div style="text-align:center">
+        <!--  <h2>Expanding Grid</h2>-->
+          <p>Click  below to know more </p>
+        </div>
+        
+        <!-- Three columns -->
+        <div class="row">
+         
+          <button class="column" onclick="openTab('b1');" >
+            Early Education
+          </button>
+          <button class="column" onclick="openTab('b2');" >
+            SSC and HSC
+          </button>
+          <button class="column" onclick="openTab('b3');">
+            Graduation
+          </button >
+        
+        </div>
+        
+        <!-- Full-width columns: (hidden by default) -->
+        <div id="b1" class="containerTab" >
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <h2>Early Education</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto ad repudiandae quibusdam ullam nam molestiae beatae, natus est. Velit sunt facilis molestiae maxime porro, consectetur rem culpa placeat temporibus odit.</p>
+        </div>
+        
+        <div id="b2" class="containerTab" >
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <h2>SSC and HSC</h2>
+         <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cumque culpa ad sint consectetur quidem, aliquam nisi sapiente, quasi deleniti quaerat itaque dolorum, cupiditate pariatur commodi quisquam maxime fuga magnam!
+         </p>
+        </div>
+        
+        <div id="b3" class="containerTab">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <h2>Graduation</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur laboriosam asperiores cumque nostrum voluptate omnis corrupti, dignissimos numquam sed aperiam! Placeat, quas ducimus nulla magnam accusantium velit magni enim debitis.</p>
+        </div>
+        <img src="./pictures/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#skills'"/>
+        
+          </section>
+    
+    
+          <section id="skills">
+            <p class="section__text__p1">Explore my Skills </p>
+            <h1 class="title">Skills</h1>
+            <div class="experience-details_container">
+              <div class="skills-containers">
+                <div class="details-container">
+                  <h2 class="experience-sub-title"> skills  </h2>
+                  <div class="article-container">
+                    <article>
+                      <img src="./pictures/checkmark.png" alt="experienceicon" class="icon"/>
+                      <div>
+                        <h3>skill1</h3>
+                        <p>experienced</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img src="./pictures/checkmark.png" alt="experienceicon" class="icon"/>
+                      <div>
+                        <h3>skill2</h3>
+                        <p>experienced</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img src="./pictures/checkmark.png" alt="experienceicon" class="icon"/>
+                      <div>
+                        <h3>skill3</h3>
+                        <p>experienced</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img src="./pictures/checkmark.png" alt="experienceicon" class="icon"/>
+                      <div>
+                        <h3>skill4</h3>
+                        <p>experienced</p>
+                      </div>
+                    </article>
+                    
+    
+                  </div>
+    
+                </div>
+    
+                <div class="details-container">
+                  <h2 class="experience-sub-title"> other skills</h2>
+                  <div class="article-container">
+                   
+                    <article>
+                      <img src="./pictures/checkmark.png" alt="experienceicon" class="icon"/>
+                      <div>
+                        <h3>skill1</h3>
+                        <p>experienced</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img src="./pictures/checkmark.png" alt="experienceicon" class="icon"/>
+                      <div>
+                        <h3>skill2</h3>
+                        <p>experienced</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img src="./pictures/checkmark.png" alt="experienceicon" class="icon"/>
+                      <div>
+                        <h3>skill3</h3>
+                        <p>experienced</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img src="./pictures/checkmark.png" alt="experienceicon" class="icon"/>
+                      <div>
+                        <h3>skill4</h3>
+                        <p>experienced</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img src="./pictures/checkmark.png" alt="experienceicon" class="icon"/>
+                      <div>
+                        <h3>skill5</h3>
+                        <p>experienced</p>
+                      </div>
+                    </article>
+    
+                  </div>
+    
+                </div>
+    
+    
+              </div>
+            </div>
+    
+    
+            <img src="./pictures/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    
+          </section>
+    
+    
+          <section id="projects">
+         <p class="section__text__p1">Browse my recent </p>
+         <h1 class="title">Projects</h1>
+         <div class="experience-details_container">
+          <div class="skills-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./pictures/5956592.png" alt="project 1" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">project one </h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live demo</button>
+            </div>
+          </div>
+    
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./pictures/5956592.png" alt="project 1" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">project two </h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live demo</button>
+            </div>
+          </div>
+    
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./pictures/5956592.png" alt="project 2" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">project three</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live demo</button>
+            </div>
+          </div>
+       
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="../pictures/5956592.png" alt="project 3" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">project four</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live demo</button>
+            </div>
+          </div>
+    
+    
+        </div>
+    
+         </div>
+    
+         <img src="./pictures/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#contact'"/>
+        
+          </section>
+    
+    
+          <section id="contact">
+    <p class="section__text__p1"> get in touch</p>
+    <h1 class="title">Contact me </h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./pictures/email.png" alt="email" class="icon contact-icon email-icon"/>
+        <p><a href="mailto:examplemail@gmail.com" class="nextpage">Example@gmail.com</a></p>
+    
+      </div>
+      <div class="contact-info-container">
+        <img src="./pictures/linkedin.png" alt="linkdin" class="icon contact-icon"/>
+        <p><a href="https://www.linkedin.com" class="nextpage">LinkedIn</a></p>
+    
+      </div>
+    
+    </div>
+    
+          </section>
+    
+        </main>
+          <footer>
+            <nav>
+              <div class="nav-links-container">
+                <ul class="nav-links">
+                  <li><a href="#about" class="nextpage">About</a></li>
+                  <li><a href="#personal-info" class="nextpage">Personal Information</a></li>
+                  <li><a href="#acadamics" class="nextpage">Acadamics</a></li>
+                  <li><a href="#skills" class="nextpage">Skills</a></li>
+                  <li><a href="#projects" class="nextpage">Projects</a></li>
+                 <!-- <li><a href="#cca">Co-curricular Activities</a></li>
+                  <li><a href="#achievements">Achievements</a></li>-->
+                  <li><a href="#contact" class="nextpage">Contact</a></li>
+                </ul>
+    
+              </div>
+            </nav>
+    
+            <p>Copyright &#169;2023 your name .All Rights Reserved .</p>
+          </footer>
+    
+        <script src="script.js"></script>
+
+
+
+
+
+</body>
+</html>
